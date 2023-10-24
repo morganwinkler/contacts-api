@@ -1,2 +1,5 @@
-json.extract! contact, :id, :created_at, :updated_at
-json.url contact_url(contact, format: :json)
+jason.id contact.id
+jason.first_name contact.first_name
+jason.last_name contact.last_name
+jason.phone_number contact.phone_number
+jason.email contact.email
